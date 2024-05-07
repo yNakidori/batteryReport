@@ -1,18 +1,30 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Sure, here's a sample README file for your Java battery log application:
 
-## Folder Structure
+Battery Log Java Application
+Overview
+This Java application allows users to log and track the battery usage of their devices. Users can input data such as battery percentage, time, date, and any additional notes. The application provides functionalities to view, edit, and delete log entries.
 
-The workspace contains two folders by default, where:
+Features
+Log battery percentage along with timestamp and optional notes.
+View a list of all logged entries.
+Edit existing log entries.
+Delete log entries.
+Installation
+Clone this repository to your local machine.
+Ensure you have Java Development Kit (JDK) installed.
+Compile the Java files using the following command:
+Copy code
+javac *.java
+Run the application using the following command:
+Copy code
+java BatteryLogApp
+Usage
+Launch the application.
+Use the menu options to add, view, edit, or delete battery log entries.
+Follow the prompts to input the required information for each action.
+Contributing
+Contributions are welcome! If you would like to contribute to this project, please fork the repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss the proposed changes.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+License
+This project is licensed under the MIT License.
